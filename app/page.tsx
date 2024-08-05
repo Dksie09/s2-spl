@@ -51,12 +51,12 @@ export default function Home() {
               <CreateMint onMintCreated={handleMintCreated} />
             </div>
           ) : (
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 mt-8">
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-4 mt-8">
               <CreateTokenAccount mintAddress={mintAddress} />
               <MintTokens mintAddress={mintAddress} />
               <TokenBalance mintAddress={mintAddress} />
-              <DelegateTokens mintAddress={mintAddress} />
               <TransferTokens mintAddress={mintAddress} />
+              <DelegateTokens mintAddress={mintAddress} />
               <BurnTokens mintAddress={mintAddress} />
             </div>
           )}
