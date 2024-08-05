@@ -4,9 +4,7 @@ A simple, user-friendly web application for managing Solana SPL tokens.
 
 ### Demo
 
-https://github.com/user-attachments/assets/a0abc86d-3603-4688-af47-597a0463092e
-
-
+https://github.com/user-attachments/assets/9de77685-e795-4569-88b8-e9b232abddb9
 
 ## Features
 
